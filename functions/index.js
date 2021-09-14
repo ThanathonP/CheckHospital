@@ -8,6 +8,6 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
     response.send("Hello from Firebase!");
 });
 exports.webhook = functions.https.onRequest((request, response) => {
-    //functions.logger.info("Hello logs!", {structuredData: trueasd});
+    //functions.logger.info("Hello logs!", {structuredData: true aaaa});
     response.send("Hello from webhook");
 });
